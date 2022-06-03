@@ -1,0 +1,264 @@
+@font-face {
+  font-family: salvatore_light;
+  src: url(./assets/salvatore_light.otf);
+}
+
+@font-face {
+  font-family: nord_regular;
+  src: url(./assets/nord_regular.ttf);
+}
+
+body {
+	background-color: #F1F7ED;
+}
+
+.w3-sidebar {
+	background-color: #F1F7ED !important;
+	width:25% !important;
+	border-right: 1px solid black !important;
+}
+
+.w3-sidebar h6{
+	margin-left: 20px;
+	margin-top: 30px;
+	font-family: salvatore_light;
+	font-size: 18px;
+}
+
+.w3-sidebar #first{
+	margin-top: 550px;
+}
+
+
+div h1 {
+	font-size: 170px;
+	font-family: nord_regular;
+	padding-left: 32%;
+}
+
+div h2 {
+	font-size: 50px;
+	font-family: nord_regular;
+	margin-left: 350px;
+}
+
+div h3 {
+	font-size: 18px;
+	margin-left: 400px;
+}
+
+div .text {
+	margin-left: 450px;
+	margin-right: 20px;
+}
+
+div.first-sentence {
+	margin-left: 50%;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+
+div img {
+	margin-left: 50%;
+	margin-top: 0px;
+}
+
+hr {
+	margin-top: 50px !important;
+	border: 1px solid black !important;
+}
+
+div .digital {
+	padding-left: 62% !important;
+}
+
+.logo {
+	height: 322px;
+	width: 309px;
+}
+
+table {
+	margin-left: 450px;
+	border-spacing: 0px;
+
+}
+
+td {
+	width: 200px;
+	padding-top: 10px;
+}
+
+td:nth-child(2) {
+	width: 600px;
+}
+
+#hrs {
+	font-size: 200px;
+}
+
+.concerns table tr {
+	width: 300px;
+}
+
+.page-content .hrs {
+	font-size: 30px;
+	text-align: center;
+}
+
+span#hrs:nth-child(1) {
+	margin-left: 400px;
+}
+
+img {
+	height: 250px;
+	width: 400px;
+	padding-top: 10px;
+}
+
+/*HOVER STYLING*/
+.title .internship:hover {
+	color: #F1F7ED;
+	margin-left: 0px !important;
+	background: linear-gradient(to right, transparent 50%, #7261A3 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .3s ease;
+}
+
+.title .digital:hover {
+	color: #F1F7ED;
+	margin-left: 0px !important;
+	background: linear-gradient(to right, transparent 50%, #F15156 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .3s ease;
+}
+
+.title .port:hover {
+	color: #F1F7ED;
+	margin-left: 0px !important;
+	background: linear-gradient(to right, transparent 50%, #09814A 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .3s ease;
+
+}
+
+div .first-section:hover {
+	color: #F1F7ED;
+	margin-left: 350px !important;
+	background: linear-gradient(to right, transparent 50%, #09814A 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .3s ease;
+
+}
+
+div .third-section:hover {
+	color: #F1F7ED;
+	margin-left: 350px !important;
+	background: linear-gradient(to right, transparent 50%, #F15156 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .3s ease;
+
+}
+
+div .fourth-section:hover {
+	color: #F1F7ED;
+	margin-left: 350px !important;
+	background: linear-gradient(to right, transparent 50%, #7261A3 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .3s ease;
+
+}
+
+div .fifth-section:hover {
+	color: #F1F7ED;
+	margin-left: 350px !important;
+	background: linear-gradient(to right, transparent 50%, #F15156 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .3s ease;
+
+}
+
+div .sixth-section:hover {
+	color: #F1F7ED;
+	margin-left: 350px !important;
+	background: linear-gradient(to right, transparent 50%, #7261A3 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .3s ease;
+
+}
+
+div .seventh-section:hover {
+	color: #F1F7ED;
+	margin-left: 350px !important;
+	background: linear-gradient(to right, transparent 50%, #09814A 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .3s ease;
+
+}
+
+.w3-sidebar a:hover {
+	background-color: black !important;
+	color: #F1F7ED !important;
+}
+
+div span:hover {
+	/*color: black;*/
+	background-color: black;
+	color: #F1F7ED;
+	transition: all .3s ease;
+}
+
+span#hrs:hover {
+	background-color: #F1F7ED;
+	color: black;
+}
+
+tr:hover {
+	background-color: black;
+	color: #F1F7ED;
+	transition: all .3s ease;
+}
+
+
+span#hrs:hover {
+  animation: flip; 
+  animation-duration: .5s;
+  display: inline-block;
+  color: #09814A;
+  background-color: transparent;
+}
+
+span#hrs:nth-child(2):hover {
+  animation: flip; 
+  animation-duration: .5s;
+  display: inline-block;
+  color: #7261A3;
+  background-color: transparent;
+}
+
+span#hrs:nth-child(3):hover {
+  animation: flip; 
+  animation-duration: .5s;
+  display: inline-block;
+  color: #F15156;
+  background-color: transparent;
+}
+
+img:hover {
+  animation: pulse; 
+  animation-duration: 1s;
+  display: inline-block;
+  color: #F15156;
+  background-color: transparent;
+}
+
+
+
